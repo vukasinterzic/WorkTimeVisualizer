@@ -34,11 +34,15 @@ The idea is to track real time spent working, not just time of the day. Connect 
 
 ## 3D Printing:
 No supports needed, infill as you wish.
+
 Front white diffuser can be replaced with a sheet of paper for very clean look. Or thin black acrylic diffuser for stealth look.
+
 Back LED Cover has holders to fit prototype  PCB board of 10cm length (this one: https://amzn.to/3XEdoul). You can print a version without PCB holder and figure out a different way to mount your electronic (hot-glue?) 
+
 Back box cover is provided in versions with and without hole for the push button. Since the part is very thin, you can easily drill the hole to fit your button location.
 
-Files are also uploaded to here:
+
+Files are also uploaded to Printables: HERE
 
 ## Other hardware:
 Apart from the 3d printed parts, the following is needed:
@@ -63,7 +67,7 @@ Electronic connection is easy:
 
 ## Version 2 Ideas:
 
-* Use Real Time Clock to improve accuracy, fix issues with loosing time. Also to automatic reset next day.
+* Use Real Time Clock to improve accuracy, fix issues with loosing time. Also to automatic reset next day. A lot of space left on the PCB for RTC to fit.
 * Use better button and place it on top of the case, this is not optimal location and it can be hard to reach
 * Use Arduino board with USB-C port or a famale USB-C connector inside the case
 * Use black acrylic as diffuser, so it is black and less visible when not in lit
