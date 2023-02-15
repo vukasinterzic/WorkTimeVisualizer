@@ -5,7 +5,8 @@ I made this device to help me track and reduce the number of hours I spend worki
 ****This is a tool for all my workaholic friends out there.****
 
 12 lights for 12 hours. Large enough to be visible but not distracting.
-IT people make jokes that one day has 3MDs of work. But it was not a point to create 24 cells. If I still end up working more than 12 hours then this device is not working.
+
+IT people make jokes that one 24h day has 3 MDs of work. If I still end up working more than 12 hours then this device is not working.
 
 ## Light configuration:
 
