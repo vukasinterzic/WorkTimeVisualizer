@@ -10,9 +10,13 @@ IT people make jokes that one day has 3MDs of work. But it was not a point to cr
 ## Light configuration:
 
 1-6 – Green lights – keep working
+
 7-8 – Orange – time is running out, finish things and plan for tomorrow
+
 9-10 – Red – stop working
+
 11-12 – flashing RED – seriously, stop working
+
 12+ All lights are flashing red. Self-destruction in progress.
 
 ## Other functionality:
