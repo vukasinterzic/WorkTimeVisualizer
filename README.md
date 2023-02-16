@@ -52,7 +52,7 @@ Back LED Cover has holders to fit prototype  PCB board of 10cm length (this one:
 Back box cover is provided in versions with and without hole for the push button. Since the part is very thin, you can easily drill the hole to fit your button location.
 
 
-Files are also uploaded to Printables: HERE
+Files are also uploaded to ***Printables***: https://www.printables.com/model/400426-work-time-visualizer
 
 ## Other hardware:
 Apart from the 3d printed parts, the following is needed:
@@ -74,7 +74,7 @@ Apart from the 3d printed parts, the following is needed:
 
  
 # Known issues:
-* ISS1: button sometiems register multiple clicks. This can probably be fixed by software debounce.
+* ISS1: button sometimes register multiple clicks. This can probably be fixed by software debounce.
 * ISS2: if turned off, time since last full hour will be lost. One hour timer will start from 0 after turned off.
 * ISS3: no reset function, need to go up to 13 to reset (using button)
 * ISS4: This is not a bug it's a feature! I did not add EEPROM write after making changes with button. Therefore if button is pressed to set lights, and then turned off, that state will not be saved. Last saved change will be from when one hour passed. This is because EEPROM memory has a limited number of rewrites and holding button (or removing it completely) will generate a lot of fast changes. Therefore I did not add EEPROM write there to protect the accidental memory demaging.
