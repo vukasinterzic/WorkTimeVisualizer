@@ -4,6 +4,9 @@ I made this device to help me track and reduce the number of hours I spend worki
 
 ****This is a tool for all my workaholic friends out there.****
 
+![Work Time Visualizer](IMG/front.jpg)
+
+
 12 lights for 12 hours. Large enough to be visible but not distracting.
 
 IT people make jokes that one 24h day has 3 MDs of work. If I still end up working more than 12 hours then this device is not working.
@@ -63,6 +66,10 @@ Apart from the 3d printed parts, the following is needed:
 ## Electronic Circuit Diagram:
 
 ![Circuit Diagram](IMG/WorkTimeVisualizerCircuit.png)
+
+
+![Inside Work Time Visualizer](IMG/inside2.jpg)
+
  
 # Known issues:
 * ISS1: button sometiems register multiple clicks. This can probably be fixed by software debounce.
@@ -74,7 +81,7 @@ Apart from the 3d printed parts, the following is needed:
 
 # Version 2 Ideas:
 
-* Use Real Time Clock to improve accuracy, fix issues with loosing time. Also to automatic reset next day. A lot of space left on the PCB for RTC to fit.
+* Use Real Time Clock to improve accuracy, fix issues with loosing time. Also to automatic reset next day. I used the full board with a lot of space left on it to fit the RTC.
 * Use better button and place it on top of the case, this is not optimal location and it can be hard to reach
 * Use Arduino board with USB-C port or a famale USB-C connector inside the case
 * Use black acrylic as diffuser, so it is black and less visible when not in lit
