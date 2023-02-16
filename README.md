@@ -1,4 +1,4 @@
-# WokTimeVisualizer
+# Work Time Visualizer
 
 I made this device to help me track and reduce the number of hours I spend working every day. Working over multiple time zones means that I can’t really rely on the time of the day. And software tools didn’t work for me, I needed something visual.
 
@@ -28,17 +28,17 @@ IT people make jokes that one 24h day has 3 MDs of work. If I still end up worki
 ## Other functionality:
 -	Every hour is saved to EEPROM and retrieved when turned back on.
 -	Progress can be manually adjusted with a push button on the back.
--   After 13 hours is reached, automatic counting will not continue and it will end there.
+-   After 13 hours is reached, automatic counting will not continue and it will end there. Reset can be done by pressing the button.
 
 
 ## Recommendations for time tracking:
 
-The idea is to track real time spent working, not just time of the day. Connect device to a cable with a switch, or even better to a smart plug. Then you can integrate it in your routines or control with voice or SmartDeck.
+The idea is to track real time spent working, not just time of the day. Connect device to a cable with a switch, or even better to a smart plug. You can turn it off if you make breaks from work during the day.
 
 ### Here is my setup:
 -	Connected to a smart plug.
--	I have a routine to start working that I activate with the voice/Smart Deck. I added this plug to the routine and it will be turned on.
--	I have IFTTT integration and a toggle button on my Smart Deck so I can turn it off and back on with a button whenever I’m taking a break from work.
+-	I have a routine to start working that I activate with the voice/Stream Deck. I added this plug to the routine and it will be turned on.
+-	I have IFTTT integration and a toggle button on my Stream Deck so I can turn it off and back on with a button whenever I’m taking a break from work.
 -	I have a routine to end work in the evening, this will turn it off.
 
 
