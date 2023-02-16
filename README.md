@@ -51,18 +51,20 @@ Files are also uploaded to Printables: HERE
 
 ## Other hardware:
 Apart from the 3d printed parts, the following is needed:
--	Smaller Arduino board with EEPROM. Some boards such as Seeeduino Xiao don’t have EEPROM and you will need to use simulator. I used ATTINY85 - https://amzn.to/3K7cdAL
+-	Smaller Arduino board with EEPROM. Some boards such as Seeeduino Xiao don’t have EEPROM and you will need to use emulator instead. I used ATTINY85 - https://amzn.to/3K7cdAL
 
 -	12 pixels of individually addressable 5V LED strip or individual NeoPixel LEDs. Files fit NeoPixel strip WS2812B with 60 pixel/meter - https://amzn.to/3YAC5Jw
 
--	5V power adapter and a cable. You can use 5V port on your Arduino, or you can cut USB cable and solder + and - directly, or use 5mm female connector as I did.
+-	5V power adapter and a cable. You can use 5V USB port on your Arduino, or you can cut USB cable and solder + and - directly, or use 5mm female connector as I did.
 -	10K resistor - https://amzn.to/40Z81Jd
--	Push Button. I used this one: https://amzn.to/3IoVOX8 
+-	Push Button. For example this one: https://amzn.to/3IoVOX8
 
 
-Electronic connection is easy:
+## Electronic Circuit:
+
+![Circuit][IMG/WorkTimeVisualizerCircuit.png]
  
-## Known issues:
+# Known issues:
 * ISS1: button sometiems register multiple clicks. This can probably be fixed by software debounce.
 * ISS2: if turned off, time since last full hour will be lost. One hour timer will start from 0 after turned off.
 * ISS3: no reset function, need to go up to 13 to reset (using button)
@@ -70,7 +72,7 @@ Electronic connection is easy:
 
 
 
-## Version 2 Ideas:
+# Version 2 Ideas:
 
 * Use Real Time Clock to improve accuracy, fix issues with loosing time. Also to automatic reset next day. A lot of space left on the PCB for RTC to fit.
 * Use better button and place it on top of the case, this is not optimal location and it can be hard to reach
