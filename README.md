@@ -60,9 +60,9 @@ Apart from the 3d printed parts, the following is needed:
 -	Push Button. For example this one: https://amzn.to/3IoVOX8
 
 
-## Electronic Circuit:
+## Electronic Circuit Diagram:
 
-![Circuit][IMG/WorkTimeVisualizerCircuit.png]
+![Circuit Diagram](IMG/WorkTimeVisualizerCircuit.png)
  
 # Known issues:
 * ISS1: button sometiems register multiple clicks. This can probably be fixed by software debounce.
