@@ -23,6 +23,8 @@ IT people make jokes that one 24h day has 3 MDs of work. If I still end up worki
 
 12+ All lights are flashing red. Self-destruction in progress.
 
+![Animation](IMG/animation.gif)
+
 ## Other functionality:
 -	Every hour is saved to EEPROM and retrieved when turned back on.
 -	Progress can be manually adjusted with a push button on the back.
