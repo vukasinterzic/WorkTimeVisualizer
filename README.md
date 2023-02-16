@@ -62,7 +62,7 @@ Apart from the 3d printed parts, the following is needed:
 
 ## Electronic Circuit Diagram:
 
-![Circuit Diagram][IMG/WorkTimeVisualizerCircuit.png]
+![Circuit Diagram](IMG/WorkTimeVisualizerCircuit.png)
  
 # Known issues:
 * ISS1: button sometiems register multiple clicks. This can probably be fixed by software debounce.
