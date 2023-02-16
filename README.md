@@ -62,7 +62,7 @@ Apart from the 3d printed parts, the following is needed:
 
 ## Electronic Circuit:
 
-![Circuit][/IMG/WorkTimeVisualizerCircuit.png]
+![Circuit][https://github.com/vukasinterzic/WokTimeVisualizer/blob/main/IMG/WorkTimeVisualizerCircuit.png]
  
 # Known issues:
 * ISS1: button sometiems register multiple clicks. This can probably be fixed by software debounce.
