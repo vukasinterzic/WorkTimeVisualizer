@@ -52,7 +52,7 @@ Back LED Cover has holders to fit prototype  PCB board of 10cm length (this one:
 Back box cover is provided in versions with and without hole for the push button. Since the part is very thin, you can easily drill the hole to fit your button location.
 
 
-Files are also uploaded to ***Printables***: https://www.printables.com/model/400426-work-time-visualizer
+You can download STL files from ***Printables***: https://www.printables.com/model/400426-work-time-visualizer
 
 ## Other hardware:
 Apart from the 3d printed parts, the following is needed:
